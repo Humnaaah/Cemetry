@@ -1,0 +1,44 @@
+.bitmap{
+    height: 173.38px;
+    width: 100%;
+    object-fit: cover;
+}
+.overviewTxt{
+    height: 275px;
+    color: #72747F;
+    /* font-family: "SF UI Display"; */
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 23px;
+    overflow-x: hidden;
+    text-align: justify;
+    margin-top: 20px;
+}
+.overviewTxt b{
+    color: green;
+}
+.overviewCont{
+display: flex;
+}
+@media only screen and (max-width:991px){
+    .mobVersion{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .desktopVersion{
+        display: none;
+    }
+    .mobVersion p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width:992px){
+    .mobVersion{
+        display: none;
+    }
+    .desktopVersion{
+        display: block;
+        margin-bottom: 20px;
+    }
+}

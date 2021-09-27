@@ -1,0 +1,46 @@
+
+.btnHead:hover{
+    opacity: 0.95;
+}
+@media only screen and (min-width:992px){
+    .btnHead{
+        height: 52px;
+        /* width: 325px; */
+        width: 100%;
+        border-radius: 26px;
+        background-color: #FFFFFF;
+        color: #0B5829;
+        /* font-family: "SF UI Display"; */
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:991px){
+    .btnHead{
+        height: 39px;
+        /* width: 325px; */
+        width: 90%;
+        border-radius: 26px;
+        background-color: #FFFFFF;
+        color: #0B5829;
+        /* font-family: "SF UI Display"; */
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}

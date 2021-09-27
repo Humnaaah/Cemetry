@@ -1,0 +1,33 @@
+.mtt-10{
+    margin-top: 10px;
+}
+.mtt-3{
+    margin-top: 3px;
+}
+.mbb-3{
+    margin-bottom: 3px;
+}
+.m-0{
+    margin:0px !important;
+}
+.m-3{
+    margin:3px !important;
+}
+.mtt-min-10{
+    margin-top: -10px;
+}
+.pdl-1rem{
+    padding-left: 1rem;
+}
+.mtt-min-5{
+    margin-top: -5px;
+}
+.mtt-20{
+    margin-top: 20px !important;
+}
+.mtt-5-per{
+    margin-top: 5%;
+}
+.mtt-10-per{
+    margin-top: 10%;
+}

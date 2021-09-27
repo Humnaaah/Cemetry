@@ -1,0 +1,100 @@
+.headCont{
+    height: 472px;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(../../Styles/Images/landing.png);
+    background-repeat: round;
+    position: relative;
+    margin-top: 10px;
+}
+.headElements{
+    position: absolute;
+    width: 100%;
+    /* opacity: 0.86; */
+    text-align: center;
+    height: 472px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0) 100%);
+}
+@media only screen and (min-width:992px){
+    .headTitle{
+        height: 124px;
+        width:100%;
+        color: #ffffff;
+        /* font-family: "GE SS Two"; */
+        font-size: 54px;
+        font-weight: bolder;
+        letter-spacing: -0.3px;
+        line-height: 70px;
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+        margin-top: 8%;
+        opacity: 100%;
+    }
+    .subTitle{
+        height: 38px;
+        width: 455px;
+        color: #FFFFFF;
+        /* font-family: Roboto; */
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 19px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:991px){
+    .headTitle{
+    width: 100%;
+    color: #ffffff;
+    /* font-family: "GE SS Two"; */
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: -0.3px;
+    line-height: 55px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 8%;
+    opacity: 100%;
+    }
+    .subTitle{
+        /* height: 38px; */
+        width: 80%;
+        color: #FFFFFF;
+        /* font-family: Roboto; */
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 19px;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.citation{
+    height: 19px;
+    color: #FFFFFF;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.childsDiv{
+    opacity: 100%;
+}
+.btnsDiv{
+    margin-top: 5% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}

@@ -1,0 +1,50 @@
+.termsCont{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #D8D8D8;
+   
+}
+@media (max-width:991px){
+    .termsCont{
+        padding:15px
+    }
+}
+@media (min-width:992px){
+    .termsCont{
+        padding:30px;
+    }
+}
+.termsHead{
+    color: #47474A;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 23px;
+    text-align: justify;
+}
+.termsContent{
+    color: #72747F;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    line-height: 23px;
+   
+}
+.termsList{
+    padding-left: 1rem;
+}
+.termsList li{
+    font-size: .875em;
+}
+.termsList li{
+    font-size: .875em;
+    padding-left: 7px;
+}
+.alpha{
+    padding-left: 2rem;
+}
+.alpha li{
+    list-style-type: upper-alpha;
+}

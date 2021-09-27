@@ -1,0 +1,58 @@
+.mapDiv{
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: #D8D8D8;
+    position: relative !important;
+    margin-top: 10px;
+    /* background-image: url(../../Styles/Images/map.png); */
+    text-align: center;
+}
+.IconBtn{
+    /* position: absolute !important; */
+    height: 45px !important;
+    border-radius: 22.5px !important;
+    background-color: #82C141 !important;
+    margin-left:auto;
+    margin-right:auto;
+    border: none;
+    color: #FFFFFF !important;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 23px;
+    text-align: center;
+    bottom: 30px; 
+    text-transform:capitalize !important;
+}
+.btnDiv{
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    bottom: 0px;
+}
+.linkStyle{
+    text-decoration: none;
+}
+@media (max-width:991px){
+    .mapDiv{
+        width: 98%;
+    }
+}
+@media (min-width:992px){
+    .mapDiv{
+        width: 80%;
+    }
+}
+@media (max-width:350px){
+    .IconBtn{
+        width: 90% !important;
+    }
+}
+@media (min-width:351px){
+    .IconBtn{
+        width: 325px !important;
+    }
+}

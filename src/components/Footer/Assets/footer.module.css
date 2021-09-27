@@ -1,0 +1,59 @@
+
+@media (max-width:350px){
+    .footerBtn{
+        width: 80%;
+    }
+}
+@media (min-width:351px){
+    .footerBtn{
+        width: 325px !important;
+    }
+}
+@media (min-width:992px){
+    .footerText{
+        height: 23px;
+    }
+    
+}
+
+.footerText{
+    color: #303030;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 23px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerDiv{
+    /* width: 600px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.footerBtn{
+    height: 45px !important;
+    border-radius: 22.5px !important;
+    background-color: #11572B !important;
+    margin-top: 5px;
+    color: #FFFFFF !important;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center !important;
+    margin-bottom: 10px;
+    border: none !important;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+}
+.btnIcon{
+    color: #FFFFFF;
+}
+.linkStyle{
+    text-decoration: none;
+}

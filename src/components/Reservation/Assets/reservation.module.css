@@ -1,0 +1,149 @@
+.mapDiv{
+    height: 628px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #D8D8D8;
+    /* background-image: url(../../Styles/Images/bg-light.jpg); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width:991px) {
+    .mapImg{
+        height: 490px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:992px) {
+    .mapImg{
+        height: 490px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+.disabledBtn{
+    height: 45px;
+    width: 100%;
+    border-radius: 22.5px;
+    background-color: #D7DAE0;
+    color: white;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    border: none;
+    float: right;
+    cursor: block;
+  }
+  .btnEnabled{
+    height: 45px;
+    width: 100%;
+    border-radius: 22.5px;
+    background-color: #11572B;
+    color: white;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    border: none;
+    float: right;
+    cursor: pointer;
+  }
+  .btnEnabled:hover{
+      opacity: 0.9;
+  }
+.formContainer{
+    height: 628px;
+    width: 100%;
+    background-color: #F0F2F7;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.subHead{
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    line-height: 23px;
+  }
+  .plotTag{
+    box-sizing: border-box;
+    height: 80px;
+    width: 62px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    background-color: #FED530;
+  }
+  .plotTag span{
+    width: 37px;
+    color: #72747F;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    line-height: 19px;  
+    font-weight: 550;
+  }
+  .plotDelete{
+    height: 55px !important;
+    width: 50px !important;
+    color: #72747F;
+  }
+  .plotDelete:hover{
+      opacity: 0.9;
+      cursor: pointer;
+  }
+  .confirmationBtn{
+    height: 45px !important;
+    width: 40% !important;
+    border-radius: 22.5px;
+    background-color: #11572B;
+    height: 23px;
+    width: 216px;
+    border: none;
+    color: #FFFFFF;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .confirmBtn{
+    height: 45px !important;
+    width: 325px !important;
+    border-radius: 22.5px;
+    background-color: #11572B;
+    height: 23px;
+    width: 216px;
+    border: none;
+    color: #FFFFFF;
+    /* font-family: "SF UI Display"; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .confirmationBtn:hover{
+      opacity: 0.9;
+      border: none;
+      background-color: #11572B;
+  }
+  .greetingContainer {
+    height: 455px;
+    width: 100%;
+    background-color: #F0F2F7;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,685 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+.navbar-toggler .collapsed .navbar-toggler-icon{
+background-image: url(../src/components/Styles/Images/menu.png);
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.55);
+  border-color: rgba(0,0,0,.1);
+  border: none;
+}
+
+.subTitle{
+  color: #72747F;
+  /* font-family: "SF UI Display"; */
+  letter-spacing: -0.5px;
+  line-height: 23px;
+  text-align: center;
+
+}
+span pre { 
+  display: flex;
+  white-space: normal;
+  word-break: break-word;
+  text-align: justify;
+  font-family: var(--bs-font-sans-serif);
+}
+.highlighted{
+  color: #0C522A;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child{
+  background: transparent;
+}
+.ant-empty-image{
+  height: auto !important;
+}
+@media only screen and (max-width:991px){
+ .navbar-collapse{
+    top: 0px;
+    position: fixed;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    left: 0;
+    z-index: 1000;
+    background: white;
+    width: 75%;
+    padding-right: 15px;
+    text-align: left;
+    border-left: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #eaeaea;
+    /* position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%; */
+  } 
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+/* =============== Map Tools ====================== */
+.tools{
+  width: 30px;
+  top: 10px;
+  right: 0;
+  margin-right: 20px;
+  position: absolute;
+  z-index: 1;
+}
+.zoomin{
+  border-radius: 15px 15px 0px 0px;
+  background: white;
+  border: 1px solid white;
+  color: darkgrey;
+  font-size: 17px;
+  width: 25px;
+  font-weight: bold;
+  border-bottom:  1px solid #DFDFDF ;
+}
+.zoomout{
+  border-radius: 0px 0px 15px 15px;
+  background: white;
+  border: 1px solid white;
+  color: darkgrey;
+  font-size: 17px;
+  width: 25px;
+  font-weight: bold;
+  border-top:  1px solid #DFDFDF ;
+ 
+}
+.transform-component-module_wrapper__1_Fgj{
+  width: auto;
+}
+.mapHead{
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-left: 20px;
+  padding-top: 10px;
+  color: #807e7e;
+  text-align: left !important;
+}
+.slotsDiv{
+  height: 75px;
+  position: absolute;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px;
+  background-color: #FFFFFF;
+  bottom: 10px;
+  left: 20px;
+  right: 20px;
+  padding: 17px;
+}
+.slotItems{
+  display: flex;
+}
+  .itemSlot{
+      flex: 1;
+  }
+ 
+  .itemSlot span{
+      height: 38px;
+      width: 25px;
+      float: left;
+      flex: 1;
+      margin-right: 10px;
+  }
+  .mapItemSlot span{
+    height: 38px;
+    width: 25px;
+    float: left;
+    flex: 1;
+}
+.itemSlot span img{
+  height: 38px;
+  width: 25px;
+  object-fit: cover;
+}
+.mapItemSlot span img{
+  height: 38px;
+  width: 25px;
+  object-fit: cover;
+}
+@media (max-width:479px){
+  .slotLabel{
+   display: none; 
+  }
+  .mapItemSlot i{
+    display: none;
+  }
+}
+@media (min-width:480px){
+  .mapItemSlot i{
+    font-style: normal;
+  }
+}
+@media screen and (max-width:991px) {
+  .btnSlot{
+  margin-top: 30px;
+  }
+  .itemSlot p{
+    margin-bottom: 3px;
+    height: 17px;
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 10px;
+    letter-spacing: -0.16px;
+    line-height: 17px;
+    text-align: justify;
+  }
+  .itemSlot label{
+    height: 17px;
+    width: 29px;
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 10px;
+    letter-spacing: -0.16px;
+    line-height: 17px;
+    text-align: justify;
+  }
+  .mapItemSlot label{
+    height: 17px;
+    width: 29px;
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 10px;
+    letter-spacing: -0.16px;
+    line-height: 17px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width:992px) {
+  .subTitle{
+    font-size: 16px;
+  }
+  .itemSlot label{
+    height: 17px;
+    width: 29px;
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 13px;
+    letter-spacing: -0.16px;
+    line-height: 17px;
+    text-align: justify;
+  }
+  .itemSlot p{
+    margin-bottom: 3px;
+    height: 17px;
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 13px;
+    letter-spacing: -0.16px;
+    line-height: 17px;
+    text-align: justify;
+  }
+  .mapItemSlot label{
+    height: 17px;
+    width: 29px;
+    color: #7F8087;
+    /* font-family: "SF UI Display"; */
+    font-size: 13px;
+    letter-spacing: -0.16px;
+    line-height: 17px;
+    text-align: justify;
+    float: left;
+    margin-left: 10px;
+  }
+  .mainFrame .transform-component-module_content__2jYgh{
+    transform: translate3d(300px, 0px, 0px) scale(1);
+  }
+}
+
+.reserved{
+  background-color: #0080BF;
+}
+.available{
+  background-color: #88BC6C;
+}
+.selected{
+  background-color: #DCB004;
+} 
+@media (max-width:360px){
+  .reservationOptions .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    width: 250px;
+  }
+}
+@media (min-width:361px){
+  .reservationOptions .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    width: 350px;
+  }
+}
+.reservationOptions .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  height: 37px;
+  border-radius: 20px;
+  border: 1px solid #c3bcbc;
+  
+  padding: 2px 11px;
+  text-align: left;
+  color: #c3bcbc;
+}
+.subHeading{
+  color: #7F8087;
+  /* font-family: "SF UI Display"; */
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  line-height: 23px;
+  text-align: justify;
+}
+.defaultListItems{
+  color: #7F8087;
+  /* font-family: "SF UI Display"; */
+  font-size: 13px;
+  letter-spacing: -0.16px;
+  line-height: 17px;
+  text-align: justify;
+}
+.mapItemSlot{
+flex:0.5 0.5;
+max-width: 110px;
+}
+.ant-form-item-explain.ant-form-item-explain-error {
+  color: #ff4d4f;
+  font-size: 11px;
+}
+.inputErros .ant-form-item-explain.ant-form-item-explain-error{
+ text-align: left;
+ margin-left: 20px;
+}
+.inputErros input{
+  height: 40px;
+  border-radius: 28.5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 9%);
+}
+.inputErros .ant-form-item-label > label{
+  height: 23px;
+  color: #72747F;
+  /* font-family: "SF UI Display"; */
+  font-size: 14px;
+  letter-spacing: -0.17px;
+  line-height: 23px;
+  text-align: justify;
+}
+.inputErros .ant-input-group-addon {
+  position: relative;
+  padding: 0 11px;
+  color: #a0a3af;
+  font-weight: 550;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.inputErros .ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+  height: 40px;
+  border-radius: 28.5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 9%);
+  text-align: left;
+}
+
+.inputErros .ant-form-item{
+  margin-bottom: 2px;
+}
+.linkGreen{
+  color: Green;
+  text-decoration: none;
+}
+.linkGreen:hover{
+  color: Green;
+  opacity: 0.9;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #198754 !important;
+  border-color: #a6c2b5 !important;
+}
+.TitleHead{
+  height: 29px;
+  color: #47474A;
+  /* font-family: "SF UI Display"; */
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.34px;
+  line-height: 29px;
+  text-align: center;
+}
+.subTitleTag{
+  height: 46px;
+  width: 392px;
+  color: #47474A;
+  /* font-family: "SF UI Display"; */
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  color: #fff;
+  border-color: Green !important;
+  background: Green !important;
+}
+.stateSelection .ant-select-selection-placeholder{
+  line-height: 38px !important;
+}
+/* Maps Styling */
+.gm-style-mtc{
+display: none;
+}
+.gmnoprint{
+  display: none;
+}
+.gm-style-cc{
+  display: none;
+}
+.gm-style label{
+font-weight: bolder !important;
+}
+.gm-style div {
+  font: 400 11px Roboto, Arial, sans-serif;
+  text-decoration: none;
+  color: #1f1d1c !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  text-transform: uppercase;
+}
+#Section_B_1 g rect:hover {
+  stroke-width: 1;
+  /*opacity: 0.7;*/
+  fill: #064f29;
+  stroke: #064f29;
+  fill-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-dasharray: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+* {
+  pointer-events: fill;
+  transform-origin: 0px 0px 0px;
+}
+.popoverName h2, .popoverName p{
+     color: #72747F;
+     /* font-family: "SF UI Display"; */
+     font-size: 13px;
+     /* font-weight: 550; */
+     letter-spacing: -0.5px;
+     line-height: 25px;
+     text-align: right;
+     margin-bottom: 0px;
+}
+.popLocation{
+  height: 23px;
+  width: 157px;
+  color: #72747F;
+  /* font-family: "SF UI Display"; */
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 23px;
+  text-align: center
+}
+.popLink{
+  height: 23px;
+  width: 87px;
+  color: #11572B;
+  /* font-family: "SF UI Display"; */
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 23px;
+  text-align: center;
+  text-decoration: none;
+}
+.popLink:hover{
+  color: #11572B;
+  opacity: 0.9;
+
+}
+.popGrave{
+  height: 61px;
+  width: 33px;
+  float: left;
+  object-fit: contain;
+}
+.react-tel-input .form-control{
+  height: 40px !important;
+    border-radius: 28.5px !important;
+    background-color: #FFFFFF !important;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 9%);
+    width: 100% !important;
+}
+.react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  background-color: #ffffff !important;
+  border: 1px solid #cacaca !important;
+  border-radius: 28.5px 0 0 28.5px !important;
+  width: 40px !important;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+}
+.react-tel-input .country-list{
+  border-radius: 20px !important;
+  text-align: left !important;
+}
+.react-tel-input .country-list::-webkit-scrollbar{
+  width: 2px;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+  background-color: transparent !important;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+  padding: 4px 11px;
+}
+@media (max-width:991px){
+  .subTitle{
+    font-size: 14px;
+  }
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+}
+}
+
+
+/* ====================== Navbar Scrolled ============================= */
+
+@keyframes myanimation {
+  0% {
+    /* background-color: transparent; */
+    color: transparent;
+  }
+  35% {
+    /* background-color: gray; */
+    color: rosybrown;
+  }
+  100% {
+    /* background-color: gray; */
+    color: rosybrown;
+  }
+}
+
+.header.shadow {
+  box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+}
+
+.header.hidden {
+  transform: translateY(-110%);
+}
+.contactScrollIcon{
+  color: #11572B;
+  height: 30px !important;
+  width: 30px !important;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid #11572B;
+  background: none;
+}
+.ScrollContact{
+  height: 19px;
+  width: 137px;
+  color: #11572B;
+  /* font-family: "SF UI Display"; */
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+@media (min-width:1200px){
+  .scrolledMargin{
+    margin-top: -2.0rem!important;
+    margin-bottom: .5rem!important;
+  }
+  .header2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 85px;
+    background-color: white;
+    color: rosybrown;
+    /* transform: translateY(10);
+    transition: transform 6s ease; */
+    animation: myanimation 0s;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 1px 1px #ccc;
+  }
+  .logoScroll{
+    height: 45px;
+    width: 140px;
+    margin-left: 30%;
+    object-fit: contain;
+}
+}
+@media (max-width:1199px) and (min-width:992px){
+  .logoScroll{
+    height: 45px;
+    width: 140px;
+    margin-left: 30%;
+    object-fit: contain;
+}
+  .header2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    background-color: white;
+    color: rosybrown;
+    /* transform: translateY(10);
+    transition: transform 6s ease; */
+    animation: myanimation 0s;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 1px 1px #ccc;
+  }
+  .scrolledMargin{
+    margin-top: -5px!important;
+    margin-bottom: .5rem!important;
+  }
+}
+@media (min-width:992px){
+  .headTitle{
+    height: 29px;
+    color: #47474A;
+    /* font-family: "SF UI Display"; */
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.34px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .framScrolled{
+    padding-top: 105px;
+    margin-top: 170px;
+    padding-bottom: 20px;
+  }
+  .mainFrame{
+    margin-top: 180px;
+    /* overflow-y: scroll;
+    height: 74vh; */
+    padding-bottom: 20px;
+  }
+}
+@media (max-width:991px){
+  .headTitle{
+    height: 29px;
+    color: #47474A;
+    /* font-family: "SF UI Display"; */
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.34px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .framScrolled{
+    padding-top: 20px;
+    margin-top: 170px;
+    padding-bottom: 20px;
+  }
+  .mainFrame{
+    margin-top: 120px;
+    /* overflow-y: scroll;
+    height: 74vh; */
+    padding-bottom: 20px;
+  }
+  .logoScroll{
+    height: 45px;
+    width: 140px;
+    object-fit: contain;
+}
+  .header2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    color: rosybrown;
+    transform: translateY(10);
+    /* transition: transform 6s ease;
+    animation: myanimation 3s; */
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 1px 1px #ccc;
+  }
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 980px !important;
+}
+}

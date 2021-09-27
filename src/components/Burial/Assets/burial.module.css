@@ -1,0 +1,84 @@
+.burialCard{
+    height: 218px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #D8D8D8;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width:991px){
+    .title{
+        color: #47474A;
+        /* font-family: "SF UI Display"; */
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: -0.72px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .address h6{
+        color: #72747F;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        line-height: 23px;
+        text-align: center;
+        /* font-family: "SF UI Display"; */
+        margin-bottom: 1px;
+    }
+    .address span{
+        color: #11572B;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        line-height: 23px;
+        text-align: center;
+        /* font-family: "SF UI Display"; */
+    }
+    .burialCard{
+        padding: 20px;
+    }
+}
+@media (min-width:992px){
+    .burialCard{
+        padding: 35px;
+    }
+    .title{
+        color: #47474A;
+        /* font-family: "SF UI Display"; */
+        font-size: 23px;
+        font-weight: 500;
+        letter-spacing: -0.72px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .address h6{
+        color: #72747F;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        line-height: 23px;
+        text-align: center;
+        /* font-family: "SF UI Display"; */
+        margin-bottom: 1px;
+    }
+    .address span{
+        color: #11572B;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        line-height: 23px;
+        text-align: center;
+        /* font-family: "SF UI Display"; */
+    }
+}
+
+
+
+
+.address pre{
+    white-space: pre-wrap;
+}
